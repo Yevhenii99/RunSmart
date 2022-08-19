@@ -2,7 +2,7 @@
     min-height: 650px;
     padding-top: 21px;
     padding-bottom: 93px;
-    background: url('../../img/main_bg.jpg') center (center / cover) no-repeat;
+    background: url('../img/main_bg.jpg') center (center / cover) no-repeat;
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -59,62 +59,6 @@
             color: #FFFFFF;
             text-transform: uppercase;
             text-decoration: underline;
-        }
-    }
-}
-.advantages {
-    min-height: 473px;
-    background-color: #F6F6F6;
-    .container {
-        display: flex;
-        justify-content: center;
-    }
-    &__wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        // margin-top: 90px;
-    }
-    &__header { 
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 42px;
-        text-transform: uppercase;
-        margin-top: 73px;
-    }
-    &__icons {
-        margin-top: 60px;
-        width: 800px;
-        display: flex;
-        justify-content: space-between;
-    }
-    &__icon {
-        width: 226px;
-        text-align: center;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 18px;
-        color: #0D0D0D;
-        span {
-            margin-top: 35px;
-            margin-bottom: 20px;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 29px;
-            color: #0D0D0D;
-            display: block;
-        }
-        p {
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 18px;
-            text-transform: uppercase;
-            text-decoration-line: underline;
-            color: #FF0000;
-        }
-        img {
-            margin: 0 auto;
-            display: block;
         }
     }
 }

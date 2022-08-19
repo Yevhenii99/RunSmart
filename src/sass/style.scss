@@ -5,7 +5,11 @@
 @import 'blocks/promo.scss';
 @import 'blocks/header.scss';
 @import 'blocks/buttons.scss';
-// @import 'base/variables.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/consultation.scss';
+@import 'blocks/title.scss';
+@import 'blocks/forms.scss';
+@import 'blocks/carousel.scss';
 
 
 
@@ -44,8 +48,8 @@
     }
     .button_main {
         font-size: 25px;
-        width: 400px;
-        height: 70px;
+        width: 300px;
+        height: 80px;
     }
     .advantages {
         &__header {
@@ -70,13 +74,26 @@
             img {
                 width: 120px;
             }
+            p {
+                font-size: 20px;
+            }
         }
         &__wrapper {
             width: 100%;
         }
     }
-    
-
+    .feed-form {
+        input {
+            font-size: 25px;
+            font-weight: 500;
+        }
+    }
+    .button {
+        &_submit {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
 }
 
 
