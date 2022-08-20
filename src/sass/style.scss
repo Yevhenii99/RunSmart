@@ -10,6 +10,7 @@
 @import 'blocks/title.scss';
 @import 'blocks/forms.scss';
 @import 'blocks/carousel.scss';
+@import 'blocks/catalog.scss';
 
 
 
@@ -96,4 +97,38 @@
     }
 }
 
+@media (max-width: 992px) {
+    .carousel {
+        &__inner {
+            width: 500px;
+            img {
+                width: 400px;
+                margin: 0 auto;
+            }
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                li {
+                    button {
+                        height: 15px;
+                        width: 50px;
+                        background-color: grey;
+                        margin-top: 20px;
+                        margin-right: 10px;
+                        border-radius: 5%;
+                        font-size: 0px;
+                    }
+                }
+                li.slick-active {
+                    button {
+                        background-color: red;
+                        height: 20px;
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
 
