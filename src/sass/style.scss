@@ -11,7 +11,8 @@
 @import 'blocks/forms.scss';
 @import 'blocks/carousel.scss';
 @import 'blocks/catalog.scss';
-
+@import 'blocks/footer.scss';
+@import 'blocks/modal.scss';
 
 
 @media (max-width: 769px) {
@@ -93,6 +94,32 @@
         &_submit {
             font-size: 20px;
             font-weight: 700;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 13px;
+        }
+        &-item__link {
+            font-size: 20px;
+        }
+        &-item__back {
+            font-size: 20px
+        }
+        &-item__list {
+            li {
+                font-size: 20px;
+                line-height: 21px;
+            }
+        }
+        &-item__subtitle {
+           font-size: 20px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 300px;
         }
     }
 }

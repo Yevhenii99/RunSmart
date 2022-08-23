@@ -19,11 +19,15 @@
         height: 55px;
         color: #FFFFFF;
         font-size: 16px;
+        &_form {
+            width: 302px;
+            height: 58px;
+            margin-top: 11px;
+        }
     }
     &_mini {
         width: 135px;
         height: 44px;
-        // background: #C70101;
         font-size: 14px;
     }
 }

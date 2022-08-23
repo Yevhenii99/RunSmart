@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RunSmart</title>
+    <link rel="shortcut icon" href="icons/favicon/favicon.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
@@ -37,7 +39,7 @@
             <a href="tel:+38077777777" class="header__phone"
               >+ (380) 777-77-77</a
             >
-            <button class="button">заказать звонок</button>
+            <button data-modal="consultation" class="button">заказать звонок</button>
           </div>
         </header>
         <div class="promo__wrapper">
@@ -58,7 +60,7 @@
             </div>
           </div>
 
-          <button class="button button_main">заказать консультацию</button>
+          <button data-modal="consultation" class="button button_main">заказать консультацию</button>
           <div class="promo__link">
             или
             <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -176,7 +178,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
 
@@ -203,7 +205,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
 
@@ -230,7 +232,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
 
@@ -257,7 +259,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
 
@@ -284,7 +286,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
 
@@ -311,7 +313,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
 
@@ -340,7 +342,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
         </div>
@@ -358,7 +360,7 @@
                 <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
                 <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
                 <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                <a href="#" class="catalog-item__back">НАЗАД</a>
+                <a href="" class="catalog-item__back">НАЗАД</a>
               </ul>
             </div>
             <hr>
@@ -368,7 +370,7 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
           <div class="catalog-item">
@@ -394,12 +396,72 @@
                 <div class="catalog-item__old-price">4 750 грн.</div>
                 <div class="catalog-item__new-price">4 500 грн.</div>
               </div>
-              <button class="button button_mini">КУПИТЬ</button>
+              <button data-modal="order" class="button button_mini">КУПИТЬ</button>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="footer">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10162.339643188054!2d30.49582223955078!3d50.44883189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce59e3ab65a7%3A0x694b8565cab02eaf!2z0JfQvtC70L7RgtGL0LUg0LLQvtGA0L7RgtCw!5e0!3m2!1sru!2sua!4v1661250416495!5m2!1sru!2sua" width="100%" height="630px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="footer__info">
+        <address class="footer__adress">вулиця Володимирська, 40А, Київ, 01034</address>
+        <a class="footer__phone" href="tel:38077777777">+(380)-777-777-77</a>
+        <div class="footer__social">
+          <a href="#" class="footer__social-item"><img src="icons/facebook.svg" alt="facebook"></a>
+          <a href="#" class="footer__social-item"><img src="icons/instagram.svg" alt="instagram"></a>
+          <a href="#" class="footer__social-item"><img src="icons/pinterest.svg" alt="pinterest"></a>
+        </div>
+      </div>
+    </footer>
+
+  <div class="cover">
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="modal-btn-close btn-close"></button>
+            <h2 class="modal-title">Просто заполните форму заявки</h2>
+            <div class="modal-subtitle">и мы перезвоним вам в течении 10 минут</div>
+
+            <input name="name" required placeholder="Ваше имя..." type="text">
+            <input name="phone" required placeholder="Ваш номер..." type="number">
+            <input name="email" required placeholder="Ваш E-mail..." type="email">
+
+            <button type="button" class="modal-btn">заказать консультацию</button>
+
+        </div>
+      </div>
+
+      <div data-modal="form" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="modal-btn-close btn-close"></button>
+              <h2 class="modal-title">Ваш заказ:</h2>
+              <div class="modal-subtitle">Пульсометр Polar FT1</div>
+  
+              <input name="name" required placeholder="Ваше имя..." type="text">
+              <input name="phone" required placeholder="Ваш номер..." type="number">
+              <input name="email" required placeholder="Ваш E-mail..." type="email">
+  
+              <button type="button" class="modal-btn">Купить</button>
+  
+          </div>
+        </div>
+
+        <!-- <div class="modal-mini">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button type="button" class="modal-btn-close btn-close"></button>
+                <h2 class="modal-title">Просто заполните форму заявки</h2>
+                <div class="modal-subtitle">и мы перезвоним вам в течении 10 минут</div>
+    
+            </div>
+          </div>
+      </div> -->
+    </div>
+
+
 
   </body>
 </html>
